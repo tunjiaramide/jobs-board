@@ -1,38 +1,72 @@
-.App {
+.content {
+  position: relative;
+}
+
+.content .side {
+  padding: 10px 15px;
+}
+
+.content .side h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.content .side h6 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.content .side p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.7rem;
+}
+
+.content .side .btn {
+  background-color: #1b693c;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 7px 20px;
+  margin-top: 20px;
+}
+
+.content .side .btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.loginCover {
+  width: 500px;
+  margin: 100px auto 0;
+  border: 1px solid #eeeeee;
+  padding: 70px 50px;
+}
+
+.loginCover .btn {
+  margin-right: 10px;
+}
+
+.jobCover {
+  width: 800px;
+  margin: 100px auto 0;
+  border: 1px solid #eeeeee;
+  padding: 70px 50px;
+}
+
+.jobCover h3 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jobCover .btn {
+  margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 600px) {
+  .jobCover {
+    width: 100%;
+    padding: 40px 20px;
   }
 }

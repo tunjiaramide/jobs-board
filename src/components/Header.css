@@ -1,0 +1,30 @@
+header {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 50px;
+}
+
+header h4 {
+  color: #777777;
+  font-weight: 200;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+header h4 span {
+  color: #000000;
+}
+
+header .btn {
+  background-color: #1b693c;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 7px 20px;
+  margin-top: 40px;
+}
+
+header .btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
