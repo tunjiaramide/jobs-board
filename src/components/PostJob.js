@@ -46,7 +46,7 @@ const PostJob = ({tokenKey}) => {
     useEffect(() => {
         if(Object.keys(postForm).length !== 0) { 
         let upload = {...postForm, token: tokenKey};
-          fetch('http://localhost:5000/api/jobs', {
+          fetch('https://safe-waters-30248.herokuapp.com/api/jobs', {
             method: 'POST',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(upload),
